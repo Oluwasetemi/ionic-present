@@ -5,9 +5,10 @@
     <!-- Presentation created using reveal.js: https://github.com/hakimel/reveal.js -->
     <!-- Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se -->
 
-    <title>Building Hybrid Apps with AngularJS and Ionic</title>
+    <title>Building Mobile Apps With Ionic and Angular</title>
 
     <meta name="description" content="Ionic Framework Presentation: The beautiful, open source framework for developing hybrid mobile apps with HTML5.">
+    <meta name="author" content="https://twitter.com/saniyusuf">
     <meta name="author" content="https://twitter.com/adamdbradley">
     <meta name="author" content="https://twitter.com/benjsperry">
     <link rel="shortcut icon" href="favicon.ico">
@@ -37,15 +38,15 @@
 
         <section>
           <img src="img/ionic-logo.png" class="logo" width="296" height="331">
-          <h4>Building Hybrid Apps with AngularJS and Ionic</h4>
+          <h4>Building Mobile Apps With Ionic and Angular</h4>
         </section>
 
           <section>
               <img src="img/sani.jpg" style="position: absolute; top:0; left:0; max-width: 260px; max-height: 260px;">
               <ul style="position: absolute; top:0; left:300px;">
-                  <li>Founder Haibrid</li>
+                  <li>Founder Of Haibrid</li>
+                  <li>Co-Organiser Of Ionic UK</li>
                   <li>Mobile Writer / Trainer</li>
-                  <li>Keen Google Glass Explorer</li>
                   <li>I Love Avatar (Im Even Learning Navi)</li>
               </ul>
           </section>
@@ -54,11 +55,12 @@
         <section>
           <h2>Overview</h2>
           <ol>
-            <li>Native vs Hybrid Apps</li>
+            <li>Good Old History Lesson</li>
             <li>Intro Ionic</li>
             <li>UI Components</li>
             <li>Ionic CLI</li>
             <li>Demos</li>
+            <li>Roundup</li>
           </ol>
         </section>
 
@@ -67,6 +69,7 @@
           <blockquote>
             &ldquo;I want a native app!&rdquo;
           </blockquote>
+          <img src="img/ios-vs-android.png" height="400px">
         </section>
 
 
@@ -89,7 +92,7 @@
             <img src="img/blackberry.png" class="logo" width="200" height="200" style="margin-left: 10px;">
           </p>
           <p><span class="light-text">
-            Why are we still coding for multiple platforms?
+            Why are we still coding for multiple platforms in 2015?
           </span></p>
         </section>
 
@@ -104,7 +107,6 @@
         <section>
           <img src="img/cordova.png" class="logo" style="margin-bottom: 0;">
           <ul>
-            <li>Hybrid Apps: HTML5 that acts like native</li>
             <li>Web wrapped in native layer</li>
             <li>Direct access to native APIs</li>
             <li>Familiar web dev environment</li>
@@ -117,7 +119,7 @@
           <blockquote>
             &ldquo;Oh No! The Zuck has spoken!&rdquo;
           </blockquote>
-          <img src="img/tech-crunch.png">
+          <img src="img/tech-crunch.png" height="500px">
           <p style="font-size:10px">
             http://techcrunch.com/2012/09/11/mark-zuckerberg-our-biggest-mistake-with-mobile-was-betting-too-much-on-html5/
           </p>
@@ -138,10 +140,17 @@
 
         <section>
           <blockquote>
-            &ldquo;Hybrid apps are slow!&rdquo;
+            &ldquo;I hear that Hybrid apps are slow!&rdquo;
           </blockquote>
           <blockquote class="fragment">
-            &ldquo;The Times They Are a-Changing'&rdquo;
+            &ldquo;Most people that say this have never developed Hybrid apps'&rdquo;
+          </blockquote>
+        </section>
+
+        <section>
+          <blockquote>
+            If anything you are building is slow, don't blame the technology.
+            You have either chosen the wrong approach, or are doing something wrong.
           </blockquote>
         </section>
 
@@ -169,11 +178,32 @@
             </tr>
             <tr>
               <td>2015</td>
-              <td>iPhone 6</td>
-              <td>1.4 GHz dual-core</td>
-              <td>1 GB</td>
+              <td>iPhone 6s</td>
+              <td>1.8 GHz dual-core</td>
+              <td>2 GB</td>
             </tr>
           </table>
+        </section>
+
+        <section>
+          <h3>Web-standards have rapidly improved!</h3>
+          <ul style="float:left; width: 75%;">
+            <li>caniuse.com is looking' pretty good nowadays</li>
+            <li>Android is now Chromium-based</li>
+            <li>iOS users keep their devices up-to-date</li>
+          </ul>
+          <img src="img/caniuse.png" width="200" class="logo">
+        </section>
+
+        <section>
+          <img src="img/ios-adoption.png">
+          <p style="font-size:10px">https://mixpanel.com/trends/#report/ios_9</p>
+        </section>
+
+
+        <section>
+          <img src="img/android-adoption.png">
+          <p style="font-size:10px">https://mixpanel.com/trends/#report/android_os_adoption</p>
         </section>
 
         <section>
@@ -221,7 +251,7 @@
 
 
         <section>
-          <img src="img/trends.png">
+          <img src="img/charts.png">
           <p style="font-size:10px">http://www.google.com/trends/explore#q=angularjs%2C%20ember.js%2C%20knockoutjs%2C%20backbonejs&date=8%2F2011%2037m&cmpt=q</p>
         </section>
 
@@ -308,12 +338,11 @@
         <section>
           <h2>Ionic's Adoption</h2>
           <ul>
-            <li>17,000+ Github Stars</li>
+            <li>19,500+ Github Stars</li>
             <li>Top 50 most starred Github repos</li>
             <li>Consistently Top 10 trending JS Github repos</li>
-            <li>Ionic CLI averages 2,300 downloads/day</li>
-            <li>600,000+ Ionic apps have been started from our CLI</li>
-            <li>Stable 1.0.0: March 2015</li>
+            <li>1,000,000+ Ionic apps have been started from Ionic CLI</li>
+            <li>Curren Version 1.1.0: in 2015</li>
           </ul>
         </section>
 
@@ -603,22 +632,39 @@ $ionicModal.fromTemplateUrl('modal.html', {
 
         <section>
           <h2>Ionic Creator</h2>
+          <a href="https://creator.ionic.io/">https://creator.ionic.io/</a>
           <img src="img/creator-preview.png" style="border:none;"/>
         </section>
 
-          <section>
-              <h2>Ionic IO</h2>
-              <img src="img/io.png" style="border:none;"/>
-          </section>
-
         <section>
-            <h2>NG Cordova</h2>
-            <img src="img/ng-cordova.png" style="border:none;"/>
+          <h2>Ionic View App</h2>
+          <a href="http://view.ionic.io/">http://view.ionic.io/</a>
+          <img src="img/ionic-view-preview-right.png" height="600px" style="border:none;box-shadow:none;background:none;">
         </section>
 
         <section>
-          <h2>Ionic Labs</h2>
-          <img src="img/labs.png" style="border:none;box-shadow:none;background:none;"/>
+          <h2>NG Cordova</h2>
+          <a href="http://ngcordova.com/">http://ngcordova.com/</a>
+          <img src="img/ng-cordova.png" style="border:none;"/>
+        </section>
+
+        <section>
+            <h2>Ionic IO</h2>
+          <a href="http://ionic.io/">http://ionic.io/</a>
+          <img src="img/io.png" style="border:none;"/>
+        </section>
+
+        <section>
+            <h2>Ionic Market</h2>
+          <a href="https://market.ionic.io/">https://market.ionic.io/</a>
+          <img src="img/market.png" style="border:none;"/>
+        </section>
+
+        <section>
+            <h2>Ionic Play ground</h2>
+          <h5>The Plunker/Codepen For Ionic</h5>
+          <a href="http://play.ionic.io/">http://play.ionic.io/</a>
+            <img src="img/playground.png" style="border:none;"/>
         </section>
 
         <section>
@@ -644,20 +690,29 @@ $ionicModal.fromTemplateUrl('modal.html', {
           </ul>
         </section>
 
+        <section>
+          <h2>Ionic Labs</h2>
+          <h4>Great for users not fond of the command line</h4>
+          <img src="img/lab.png" style="border:none;box-shadow:none;background:none;"/>
+        </section>
+
 
         <section>
           <h2>Ionic CLI</h2>
-<pre class="ionic-blue">
-<code class="fragment">$ npm install -g ionic cordova</code>
-<code class="fragment">$ ionic start myapp sidemenu</code>
-<code class="fragment">$ cd myapp</code>
-<code class="fragment">$ ionic serve</code>
-</pre>
+            <pre class="ionic-blue">
+            <code class="fragment">$ npm install -g ionic cordova</code>
+            <code class="fragment">$ ionic start myapp sidemenu</code>
+            <code class="fragment">$ cd myapp</code>
+            <code class="fragment">$ ionic serve</code>
+            </pre>
         </section>
 
 
         <section>
           <h2><strong>Demo Time!</strong></h2>
+          <h5>Ionic Starter Templates</h5>
+          <h5>Platform Continuity</h5>
+          <h5>Customising Ionic Apps</h5>
           <h6 class="light-text">May the demo gods be with us</h6>
         </section>
 
@@ -699,6 +754,25 @@ $ionicModal.fromTemplateUrl('modal.html', {
           <a href="https://github.com/driftyco/ionic" target="_blank"><span class="light-text">github.com/driftyco/ionic</span></a></p>
         </section>
 
+        <section>
+          <h2>Learn Ionic In Depth</h2>
+          <br />
+          <p><strong>Watch Out For My Book, "Ionic By Example" Due Before Christmas</strong><br />
+          <br />
+
+          <p><strong>70% Off Ionic & Angular Courses @ Code-Craft Pro with coupon <b style="color: black">"IONICUKMEETUP"</b></strong><br />
+            <a href="http://codecraftpro.com/r/ionicukmeetup/bundle/" target="_blank"><span class="light-text">http://codecraftpro.com/r/ionicukmeetup/bundle/</span></a></p>
+          <br />
+
+          <p><strong>Ionic In Action Book By Jeremy Wilken</strong><br />
+            <a href="http://ionicinaction.com/" target="_blank"><span class="light-text">http://ionicinaction.com/</span></a></p>
+          <br />
+
+          <p><strong>App Camp By Ionic's @brandyscarney & @benjsperry </strong><br />
+            <a href="http://www.appcamp.io/" target="_blank"><span class="light-text">http://www.appcamp.io/</span></a></p>
+          <br />
+        </section>
+
           <section>
               <h2>Find Me Online</h2>
               <ul>
@@ -706,8 +780,24 @@ $ionicModal.fromTemplateUrl('modal.html', {
                   <li>Github : http://github.com/saniyusuf</li>
                   <li>Linkedin : http://linkedin.com/in/saniyusuf</li>
                   <li>Medium : http://medium.com/@saniyusuf</li>
+                  <li>Slides : http://slides.com/saniyusuf</li>
+                  <li>Website : http://saniyusuf.com</li>
+                  <li>Ionic UK : @ionicUK</li>
               </ul>
           </section>
+
+
+        <section>
+          <h2>Some Really Great Contributors</h2>
+          <ul>
+            <li>Ionitron : @ionitron</li>
+            <li>Holly Schinsky : @devgirlFL</li>
+            <li>Raymond Camden : @raymondcamden</li>
+            <li>Joshua Morony  : @@joshuamorony</li>
+            <li>Andrew McGiverly  : @andrewmcgivery</li>
+            <li>Nic Raboy : @nraboy</li>
+          </ul>
+        </section>
 
           <section>
               <h2>Questions</h2>
